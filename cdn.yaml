@@ -12,7 +12,7 @@ data:
          action:
            type: block
            wafFlags:
-             - XSS
+            - XSS
       - name: "path-rule"
         when:
           reqProperty: path
